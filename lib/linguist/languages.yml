@@ -1124,16 +1124,35 @@ Dogescript:
   language_id: 90
 Dylan:
   type: programming
-  color: "#6c616e"
+  color: "#f50230"
   extensions:
   - ".dylan"
   - ".dyl"
-  - ".intr"
-  - ".lid"
   ace_mode: text
   codemirror_mode: dylan
   codemirror_mime_type: text/x-dylan
   language_id: 91
+  group: Dylan
+Dylan LID:
+  type: data
+  group: Dylan
+  color: "#068b9c"
+  extensions:
+  - ".lid"
+  ace_mode: text
+  codemirror_mode: dylan
+  codemirror_mime_type: text/x-dylan
+  language_id: 91000767368
+Dylan Interface Generator:
+  type: programming
+  group: Dylan
+  color: "#700264"
+  extensions:
+  - ".intr"
+  ace_mode: text
+  codemirror_mode: dylan
+  codemirror_mime_type: text/x-dylan
+  language_id: 91073788482
 E:
   type: programming
   color: "#ccce35"
